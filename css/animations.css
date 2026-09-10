@@ -1,9 +1,0 @@
-@keyframes page-in { from { opacity: 0; } to { opacity: 1; } }
-@keyframes rise { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
-@keyframes drift { 50% { transform: translate(70px,-35px) scale(1.12); } }
-@keyframes shimmer { to { transform: translateX(120%); } }
-@keyframes float { 50% { transform: translateY(-8px); } }
-@keyframes pulse { 50% { opacity: .65; transform: scale(1.08); } }
-.page-ready { animation: page-in .7s ease both; }
-.aurora-orb { animation: drift 14s ease-in-out infinite; }
-.float-pill { animation: float 4s ease-in-out infinite; }
